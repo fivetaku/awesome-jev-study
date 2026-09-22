@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/297-jcm-router.md) · [English](../../en/projects/297-jcm-router.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L297) `README.md:297` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: Model routing (모델 라우팅)
+- 절: 모델 라우팅
 - 주소: https://github.com/adarshmishra07/jcm-router
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -11,6 +11,8 @@
 ## 목록이 말하는 일
 
 > - [jcm-router](https://github.com/adarshmishra07/jcm-router) - Local proxy that picks the Claude model and reasoning effort per message while leaving the cached main chat untouched.
+
+로컬 프록시. 메시지마다 Claude 모델과 추론 강도를 고르고, 캐시된 본 대화는 건드리지 않는다.
 
 ## 확인한 것
 
@@ -20,15 +22,15 @@
 
 ## Jev의 역할
 
-Jev의 Choice가 다음 모델, 스킬, 경로를 고른다. 생성이 있다면 그 선택 다음에 일어난다. 목록은 이렇게 적는다. Local proxy that picks the Claude model and reasoning effort per message while leaving the cached main chat untouched. 이 페이지는 라우팅 규칙을 소스에서 따라가지 않았다.
+Jev의 Choice가 다음 모델, 스킬, 경로를 고른다. 생성이 있다면 그 선택 다음에 일어난다. 목록은 이렇게 적는다. 로컬 프록시. 메시지마다 Claude 모델과 추론 강도를 고르고, 캐시된 본 대화는 건드리지 않는다. 이 페이지는 라우팅 규칙을 소스에서 따라가지 않았다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
 목록 문장과 읽은 앞부분에는 이 항목의 엔드포인트, 모델 id, 키 변수, 질문 스키마가 없다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 

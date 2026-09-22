@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/451-typesafe-ai-benchmark.md) · [English](../../en/projects/451-typesafe-ai-benchmark.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L451) `README.md:451` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: Benchmarks and evaluations (벤치마크)
+- 절: 벤치마크
 - 주소: https://github.com/iammrduncan/typesafe-ai-benchmark
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -11,6 +11,8 @@
 ## 목록이 말하는 일
 
 > - [typesafe-ai-benchmark](https://github.com/iammrduncan/typesafe-ai-benchmark) - Jev vs Qwen 3.8 27B on Cerebras for the same System One questions.
+
+같은 System One 질문에서 Jev와 Cerebras 위의 Qwen 3.8 27B.
 
 ## 확인한 것
 
@@ -20,15 +22,15 @@
 
 ## Jev의 역할
 
-이 행은 제품 기능이 아니라 하네스이거나 공개 평가다. 목록은 이렇게 적는다. Jev vs Qwen 3.8 27B on Cerebras for the same System One questions. 목록의 공식 숫자는 벤더 보고다. 이 스터디는 하네스를 다시 돌리지 않았다. 2026-09-22의 evals.typesafe.ai 조회 본문에는, 더 긴 이전 추출이 인용하던 대표 백분율이 없었다. 그래서 그 백분율은 여기 다시 적지 않는다.
+이 행은 제품 기능이 아니라 하네스이거나 공개 평가다. 목록은 이렇게 적는다. 같은 System One 질문에서 Jev와 Cerebras 위의 Qwen 3.8 27B. 목록의 공식 숫자는 벤더 보고다. 이 스터디는 하네스를 다시 돌리지 않았다. 2026-09-22의 evals.typesafe.ai 조회 본문에는, 더 긴 이전 추출이 인용하던 대표 백분율이 없었다. 그래서 그 백분율은 여기 다시 적지 않는다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
 목록 문장과 읽은 앞부분에는 이 항목의 엔드포인트, 모델 id, 키 변수, 질문 스키마가 없다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 

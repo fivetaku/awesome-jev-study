@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/470-openjev.md) · [English](../../en/projects/470-openjev.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L470) `README.md:470` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: Research and open models (연구·오픈 모델)
+- 절: 연구·오픈 모델
 - 주소: https://github.com/TheoLeeCJ/openjev
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -11,6 +11,8 @@
 ## 목록이 말하는 일
 
 > - [openjev](https://github.com/TheoLeeCJ/openjev) - Can we run something Jev-like on a home RTX 3090? Reads option logits instead of generating text. Also [zhihz/openjev](https://github.com/zhihz/openjev) - an independent local preview answering bilingual probability questions.
+
+집의 RTX 3090에서 Jev 비슷한 것을 돌릴 수 있나. 글을 생성하지 않고 선택지 로짓을 읽는다. [zhihz/openjev](https://github.com/zhihz/openjev)는 따로인 로컬 프리뷰로, 두 언어의 확률 질문에 답한다.
 
 ## 확인한 것
 
@@ -20,15 +22,15 @@
 
 ## Jev의 역할
 
-이 행은 주장 옆에 놓인 논문, 로컬 모델, 오픈 산출물이다. 목록은 이렇게 적는다. Can we run something Jev-like on a home RTX 3090? Reads option logits instead of generating text. Also [zhihz/openjev](https://github.com/zhihz/openjev) - an independent local preview answering bilingual probability questions. Jev를 의존성으로 가정하지 않는다. 앞부분이 Jev의 이름을 말하는지까지 보았다. 소스는 따라가지 않았다.
+이 행은 주장 옆에 놓인 논문, 로컬 모델, 오픈 산출물이다. 목록은 이렇게 적는다. 집의 RTX 3090에서 Jev 비슷한 것을 돌릴 수 있나. 글을 생성하지 않고 선택지 로짓을 읽는다. [zhihz/openjev](https://github.com/zhihz/openjev)는 따로인 로컬 프리뷰로, 두 언어의 확률 질문에 답한다. Jev를 의존성으로 가정하지 않는다. 앞부분이 Jev의 이름을 말하는지까지 보았다. 소스는 따라가지 않았다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
 목록 문장과 읽은 앞부분에는 이 항목의 엔드포인트, 모델 id, 키 변수, 질문 스키마가 없다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 

@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/258-blink.md) · [English](../../en/projects/258-blink.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L258) `README.md:258` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: Search, retrieval, and data (검색·데이터)
+- 절: 검색·데이터
 - 주소: https://github.com/ellipsis-dev/blink
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -12,6 +12,8 @@
 
 > - [blink](https://github.com/ellipsis-dev/blink) - Codebase search: an ensemble of walkers asks Jev which file answers a natural-language query.
 
+코드베이스 검색. 여러 워커가 Jev에게 어느 파일이 자연어 질문에 답하는지 묻는다.
+
 ## 확인한 것
 
 - 실행으로 확인, GitHub API 2026-09-22: `ellipsis-dev/blink`, 스타 59, SPDX none, push 2026-09-16, 아카이브 False, 언어 TypeScript.
@@ -19,15 +21,15 @@
 
 ## Jev의 역할
 
-Jev는 나머지 시스템이 이미 가져온 문단, 행, 쿼리 사이에서 점수를 매기거나 거르거나 고른다. 목록은 이렇게 적는다. Codebase search: an ensemble of walkers asks Jev which file answers a natural-language query. 검색 자체는 데이터베이스, 색인, 크롤러의 일이다. 이 페이지는 그 파이프라인을 따라가지 않았다.
+Jev는 나머지 시스템이 이미 가져온 문단, 행, 쿼리 사이에서 점수를 매기거나 거르거나 고른다. 목록은 이렇게 적는다. 코드베이스 검색. 여러 워커가 Jev에게 어느 파일이 자연어 질문에 답하는지 묻는다. 검색 자체는 데이터베이스, 색인, 크롤러의 일이다. 이 페이지는 그 파이프라인을 따라가지 않았다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
 목록 문장과 읽은 앞부분에는 이 항목의 엔드포인트, 모델 id, 키 변수, 질문 스키마가 없다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 

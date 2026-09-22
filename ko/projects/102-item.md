@@ -3,36 +3,38 @@
 [한국어](../../ko/projects/102-item.md) · [English](../../en/projects/102-item.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L102) `README.md:102` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: Quick start (퀵스타트)
+- 절: 시작 예제
 - 주소: https://docs.typesafe.ai/introduction/quickstart
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
 
 ## 목록이 말하는 일
 
-이 행은 한 줄 불릿이 아니다. 아래는 그 표·블록을 옮긴 것이다.
+이 행은 한 줄 불릿이 아니다. 아래 인용은 목록의 그 줄이고, 이어서 표나 블록을 한국어로 옮긴다.
 
-> 목록의 퀵스타트(README.md:102-159). 여기서 실행하지 않았다. Python `pip install typesafe-sdk`, 클래스 `Choice`, `Noul`, `Score`, `TypeSafeClient.system_one`, 키는 `TYPESAFE_API_KEY`. JavaScript `npm install @typesafe-ai/sdk`, `client.systemOne`. 예제 state는 지원 티켓 하나다. Choice는 의도, Noul은 긴급 여부, Score는 불만을 세 칸 루브릭에 놓는다. Vercel에서는 `experimental_evaluate`와 모델 id `typesafe-ai/jev`.
+> The list's quick start (README.md:102-159), not executed here. Python `pip install typesafe-sdk`, classes `Choice`, `Noul`, `Score`, `TypeSafeClient.system_one`, key from `TYPESAFE_API_KEY`. JavaScript `npm install @typesafe-ai/sdk`, `client.systemOne`. The sample state is one support ticket. Choice asks the intent, Noul asks whether it is urgent, Score places frustration on a three-point rubric. On Vercel, `experimental_evaluate` with model id `typesafe-ai/jev`.
+
+목록의 시작 예제(README.md:102-159). 여기서 실행하지 않았다. Python은 `pip install typesafe-sdk`, 클래스 `Choice`·`Noul`·`Score`, `TypeSafeClient.system_one`, 키는 `TYPESAFE_API_KEY`. JavaScript는 `npm install @typesafe-ai/sdk`, `client.systemOne`. 예제 `state`는 지원 티켓 하나다. Choice는 의도, Noul은 급한지, Score는 불만을 세 칸 채점 기준에 놓는다. Vercel에서는 `experimental_evaluate`와 모델 id `typesafe-ai/jev`. 받아 온 시작 페이지 앞부분은 Playground를 연다.
 
 ## 확인한 것
 
-- 퀵스타트 페이지 앞부분은 Playground를 열고, 로그인하고, 아무 텍스트나 state로 붙이라고 시작한다. 예제는 실행하지 않았다.
+- 시작 예제 페이지 앞부분은 Playground를 열고, 로그인하고, 아무 텍스트나 state로 붙이라고 시작한다. 예제는 실행하지 않았다.
 
 ## Jev의 역할
 
-이 행은 커뮤니티 통합이 아니라 TypeSafe 페이지이거나 목록 자신의 표다. 다루는 것: 목록의 퀵스타트(README.md:102-159). 여기서 실행하지 않았다. Python `pip install typesafe-sdk`, 클래스 `Choice`, `Noul`, `Score`, `TypeSafeClient.system_one`, 키는 `TYPESAFE_API_KEY`. JavaScript `npm install @typesafe-ai/sdk`, `client.systemOne`. 예제 state는 지원 티켓 하나다. Choice는 의도, Noul은 긴급 여부, Score는 불만을 세 칸 루브릭에 놓는다. Vercel에서는 `experimental_evaluate`와 모델 id `typesafe-ai/jev`.
+이 행은 커뮤니티 통합이 아니라 TypeSafe 페이지이거나 목록 자신의 표다. 다루는 것: 목록의 시작 예제(README.md:102-159). 여기서 실행하지 않았다. Python은 `pip install typesafe-sdk`, 클래스 `Choice`·`Noul`·`Score`, `TypeSafeClient.system_one`, 키는 `TYPESAFE_API_KEY`. JavaScript는 `npm install @typesafe-ai/sdk`, `client.systemOne`. 예제 `state`는 지원 티켓 하나다. Choice는 의도, Noul은 급한지, Score는 불만을 세 칸 채점 기준에 놓는다. Vercel에서는 `experimental_evaluate`와 모델 id `typesafe-ai/jev`. 받아 온 시작 페이지 앞부분은 Playground를 연다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
-문서 행이다. 세팅은 목록이 적은 질문의 모양이다. 샘플은 실행하지 않았다.
+문서 행이다. 설정은 목록이 적은 질문의 모양이다. 샘플은 실행하지 않았다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 
-추론. 목록이 긋는 비교는 구조다. LLM은 문장을 쓰고 사람이 파싱한다. Jev는 정해 둔 공간 안의 값을 돌려준다. 모델만 바꾸면 결과의 타입이 유지되지 않는다. 런치 글의 지연·가격 범위는 벤더 보고이고 이 페이지의 재실행이 아니다.
+추론. 목록이 긋는 비교는 구조다. LLM은 문장을 쓰고 사람이 파싱한다. Jev는 정해 둔 공간 안의 값을 돌려준다. 모델만 바꾸면 결과의 타입이 유지되지 않는다. 공개 글의 지연·가격 범위는 벤더 보고이고 이 페이지의 재실행이 아니다.
 
 ## 스크립트로 같은 일을 했다면
 

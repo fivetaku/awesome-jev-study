@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/482-mini-vibe-check-typesafe-s-jev-judged-ever.md) · [English](../../en/projects/482-mini-vibe-check-typesafe-s-jev-judged-ever.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L482) `README.md:482` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: Articles and coverage (기사)
+- 절: 기사
 - 주소: https://every.to/also-true-for-humans/mini-vibe-check-typesafe-s-jev-judged-everything-i-ve-written-in-0-7-seconds
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -12,21 +12,23 @@
 
 > - [Mini-Vibe Check: TypeSafe's Jev Judged Everything I've Written in 0.7 Seconds](https://every.to/also-true-for-humans/mini-vibe-check-typesafe-s-jev-judged-everything-i-ve-written-in-0-7-seconds) - Every's Mike Taylor runs Jev over his writing corpus: 1,709 judgments for under a cent.
 
+Every의 Mike Taylor가 자기 글 모음에 Jev를 돌렸다. 판단 1,709번이 1센트 미만이라고 목록이 적는다.
+
 ## 확인한 것
 
 - 2026-09-22 조회는 로그인 벽이었다. 글 본문을 읽지 못했다.
 
 ## Jev의 역할
 
-이 행은 Jev 통합이 아니다. Jev에 대한 페이지, 글, 목록, FAQ 답이다. 목록은 이렇게 적는다. Every's Mike Taylor runs Jev over his writing corpus: 1,709 judgments for under a cent. 프로젝트가 아닌 앞부분에서 복구할 호출 세팅은 없다. 소셜 글의 문장은 확인된 사실로 취급하지 않는다.
+이 행은 Jev 통합이 아니다. Jev에 대한 페이지, 글, 목록, FAQ 답이다. 목록은 이렇게 적는다. Every의 Mike Taylor가 자기 글 모음에 Jev를 돌렸다. 판단 1,709번이 1센트 미만이라고 목록이 적는다. 프로젝트가 아닌 앞부분에서 복구할 호출 설정은 없다. 소셜 글의 문장은 확인된 사실로 취급하지 않는다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
-이 행은 통합이 아니라서 호출 세팅이 없다.
+이 행은 통합이 아니라서 호출 설정이 없다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 

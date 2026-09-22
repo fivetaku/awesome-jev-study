@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/356-jev-mcp-jkudish.md) · [English](../../en/projects/356-jev-mcp-jkudish.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L356) `README.md:356` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: Agent tools and MCP servers (에이전트 도구·MCP)
+- 절: 에이전트 도구·MCP
 - 주소: https://github.com/jkudish/jev-mcp
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -11,6 +11,8 @@
 ## 목록이 말하는 일
 
 > - [jev-mcp (jkudish)](https://github.com/jkudish/jev-mcp) - Node MCP wrapping three cookbook patterns: `jev_verify` (citation check), `jev_screen` (prompt-injection guardrails), `jev_find` (semantic ranking without embeddings). `npx -y github:jkudish/jev-mcp`.
+
+쿡북 패턴 셋을 감싼 Node MCP. `jev_verify`는 인용 확인, `jev_screen`은 프롬프트 주입 가드, `jev_find`는 임베딩 없이 의미 순위. `npx -y github:jkudish/jev-mcp`.
 
 ## 확인한 것
 
@@ -20,15 +22,15 @@
 
 ## Jev의 역할
 
-Jev는 에이전트가 부르는 도구로 열려 있거나, 이미 문장을 쓰는 에이전트 앞의 게이트다. 목록은 이렇게 적는다. Node MCP wrapping three cookbook patterns: `jev_verify` (citation check), `jev_screen` (prompt-injection guardrails), `jev_find` (semantic ranking without embeddings). `npx -y github:jkudish/jev-mcp`. 에이전트 루프, 권한, 부수 효과는 Jev가 아니다. 이 페이지는 그것들을 따라가지 않았다.
+Jev는 에이전트가 부르는 도구로 열려 있거나, 이미 문장을 쓰는 에이전트 앞의 게이트다. 목록은 이렇게 적는다. 쿡북 패턴 셋을 감싼 Node MCP. `jev_verify`는 인용 확인, `jev_screen`은 프롬프트 주입 가드, `jev_find`는 임베딩 없이 의미 순위. `npx -y github:jkudish/jev-mcp`. 에이전트 루프, 권한, 그 다음 일은 Jev가 아니다. 이 페이지는 그것들을 따라가지 않았다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
 목록 문장이 이름까지 적는다: `jev_verify`, `jev_screen`, `jev_find`, `npx -y github:jkudish/jev-mcp`. 그것은 목록의 문장이지, 소스를 따라가 확인한 설정 파일이 아니다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 

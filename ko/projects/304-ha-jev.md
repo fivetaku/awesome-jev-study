@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/304-ha-jev.md) · [English](../../en/projects/304-ha-jev.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L304) `README.md:304` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: Business and vertical apps (업무·버티컬 앱)
+- 절: 업무용 앱
 - 주소: https://github.com/AboveColin/HA-Jev
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -11,6 +11,8 @@
 ## 목록이 말하는 일
 
 > - [HA-Jev](https://github.com/AboveColin/HA-Jev) - Home Assistant integration: typed questions about entity state become sensors and automation actions, with usage, cost, and daily-budget entities.
+
+Home Assistant 연동. 엔티티 상태에 대한 타입이 있는 질문이 센서와 자동화 동작이 된다. 사용량, 비용, 하루 예산 엔티티가 있다.
 
 ## 확인한 것
 
@@ -20,15 +22,15 @@
 
 ## Jev의 역할
 
-목록은 이렇게 적는다. Home Assistant integration: typed questions about entity state become sensors and automation actions, with usage, cost, and daily-budget entities. 이 절의 행은 대개 닫힌 라벨이다. 채용 여부, 의도, 매수·매도, 허용·차단. 돈, 메시지, 기록은 일반 코드에 남는다. 그 예는 절의 예이고, 이 행이 그중 하나라는 확인은 아니다. 이 페이지는 그 부수 효과를 따라가지 않았다.
+목록은 이렇게 적는다. Home Assistant 연동. 엔티티 상태에 대한 타입이 있는 질문이 센서와 자동화 동작이 된다. 사용량, 비용, 하루 예산 엔티티가 있다. 이 절의 행은 대개 닫힌 라벨이다. 채용 여부, 의도, 매수·매도, 허용·차단. 돈, 메시지, 기록은 일반 코드에 남는다. 그 예는 절의 예이고, 이 행이 그중 하나라는 확인은 아니다. 이 페이지는 그 다음 일을 따라가지 않았다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
 목록 문장과 읽은 앞부분에는 이 항목의 엔드포인트, 모델 id, 키 변수, 질문 스키마가 없다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 

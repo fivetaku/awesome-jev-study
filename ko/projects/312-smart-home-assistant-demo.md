@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/312-smart-home-assistant-demo.md) · [English](../../en/projects/312-smart-home-assistant-demo.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L312) `README.md:312` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: Business and vertical apps (업무·버티컬 앱)
+- 절: 업무용 앱
 - 주소: https://docs.typesafe.ai/demos/smart-home
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -12,21 +12,23 @@
 
 > - [Smart home assistant demo](https://docs.typesafe.ai/demos/smart-home) - Official interactive demo of speculative fan-out: many questions in one call, code keeps the relevant answers, LLM only for splits and chit-chat.
 
+공식 대화형 데모. 한 호출에 질문을 많이 넣고, 코드가 관련 있는 답만 남긴다. LLM은 나누기와 잡담에만 쓴다.
+
 ## 확인한 것
 
 - 이 행에서 목록 문장 밖에 확인된 사실은 없다.
 
 ## Jev의 역할
 
-목록은 이렇게 적는다. Official interactive demo of speculative fan-out: many questions in one call, code keeps the relevant answers, LLM only for splits and chit-chat. 이 절의 행은 대개 닫힌 라벨이다. 채용 여부, 의도, 매수·매도, 허용·차단. 돈, 메시지, 기록은 일반 코드에 남는다. 그 예는 절의 예이고, 이 행이 그중 하나라는 확인은 아니다. 이 페이지는 그 부수 효과를 따라가지 않았다.
+목록은 이렇게 적는다. 공식 대화형 데모. 한 호출에 질문을 많이 넣고, 코드가 관련 있는 답만 남긴다. LLM은 나누기와 잡담에만 쓴다. 이 절의 행은 대개 닫힌 라벨이다. 채용 여부, 의도, 매수·매도, 허용·차단. 돈, 메시지, 기록은 일반 코드에 남는다. 그 예는 절의 예이고, 이 행이 그중 하나라는 확인은 아니다. 이 페이지는 그 다음 일을 따라가지 않았다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
 목록 문장과 읽은 앞부분에는 이 항목의 엔드포인트, 모델 id, 키 변수, 질문 스키마가 없다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 

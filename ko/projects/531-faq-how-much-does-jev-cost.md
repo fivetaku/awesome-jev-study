@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/531-faq-how-much-does-jev-cost.md) · [English](../../en/projects/531-faq-how-much-does-jev-cost.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L531) `README.md:531` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: FAQ (FAQ)
+- 절: 자주 묻는 질문
 - 주소: 이 행에는 URL이 없다
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -12,21 +12,23 @@
 
 > $0.042 per million input tokens; output tokens are free. A typical typed question costs a tiny fraction of a cent, which is why the featured builds above report numbers like 1,709 judgments for under a cent.
 
+입력 100만 토큰당 $0.042. 출력 토큰은 무료. 전형적인 타입이 있는 질문은 1센트의 아주 작은 조각이라, 위의 대표 빌드가 판단 1,709번을 1센트 미만으로 적는다고 목록이 말한다.
+
 ## 확인한 것
 
 - 이 행에서 목록 문장 밖에 확인된 사실은 없다.
 
 ## Jev의 역할
 
-이 행은 Jev 통합이 아니다. Jev에 대한 페이지, 글, 목록, FAQ 답이다. 목록은 이렇게 적는다. $0.042 per million input tokens; output tokens are free. A typical typed question costs a tiny fraction of a cent, which is why the featured builds above report numbers like 1,709 judgments for under a cent. 프로젝트가 아닌 앞부분에서 복구할 호출 세팅은 없다. 소셜 글의 문장은 확인된 사실로 취급하지 않는다.
+이 행은 Jev 통합이 아니다. Jev에 대한 페이지, 글, 목록, FAQ 답이다. 목록은 이렇게 적는다. 입력 100만 토큰당 $0.042. 출력 토큰은 무료. 전형적인 타입이 있는 질문은 1센트의 아주 작은 조각이라, 위의 대표 빌드가 판단 1,709번을 1센트 미만으로 적는다고 목록이 말한다. 프로젝트가 아닌 앞부분에서 복구할 호출 설정은 없다. 소셜 글의 문장은 확인된 사실로 취급하지 않는다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
-이 행은 통합이 아니라서 호출 세팅이 없다.
+이 행은 통합이 아니라서 호출 설정이 없다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 

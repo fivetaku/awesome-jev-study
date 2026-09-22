@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/519-faq-what-is-typesafe-ai.md) · [English](../../en/projects/519-faq-what-is-typesafe-ai.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L519) `README.md:519` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: FAQ (FAQ)
+- 절: 자주 묻는 질문
 - 주소: 이 행에는 URL이 없다
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -12,21 +12,23 @@
 
 > TypeSafe AI is a San Francisco AI lab founded by Diogo Almeida, previously at OpenAI, where he worked on instruction-following methods. The company raised $40M and works on "machine-native" intelligence: models built for software to consume, not for people to chat with.
 
+TypeSafe AI는 샌프란시스코의 AI 랩이고, 창업자는 전에 OpenAI에서 지시 따르기 방법을 다룬 Diogo Almeida다. 목록은 회사가 $40M을 모았고, 사람과 대화하는 모델이 아니라 소프트웨어가 소비하는 기계 고유의 지능을 한다고 적는다. $40M은 그날 받아 온 공개 글에서 확인되지 않았고, 미확인으로 둔다.
+
 ## 확인한 것
 
-- 목록 FAQ는 회사가 $40M을 모았다고 적는다 (README.md:519). 이번 런치 글 본문에서 그 액수를 찾지 못했다. 미확인이다. 창업자 Diogo Almeida와 OpenAI instruction-following 경력 서술은 런치 글과 맞닿아 있다.
+- 목록 FAQ는 회사가 $40M을 모았다고 적는다 (README.md:519). 이번 공개 글 본문에서 그 액수를 찾지 못했다. 미확인이다. 창업자 Diogo Almeida와 OpenAI instruction-following 경력 서술은 공개 글과 맞닿아 있다.
 
 ## Jev의 역할
 
-이 행은 Jev 통합이 아니다. Jev에 대한 페이지, 글, 목록, FAQ 답이다. 목록은 이렇게 적는다. TypeSafe AI is a San Francisco AI lab founded by Diogo Almeida, previously at OpenAI, where he worked on instruction-following methods. The company raised $40M and works on "machine-native" intelligence: models built for software to consume, not for people to chat with. 프로젝트가 아닌 앞부분에서 복구할 호출 세팅은 없다. 소셜 글의 문장은 확인된 사실로 취급하지 않는다.
+이 행은 Jev 통합이 아니다. Jev에 대한 페이지, 글, 목록, FAQ 답이다. 목록은 이렇게 적는다. TypeSafe AI는 샌프란시스코의 AI 랩이고, 창업자는 전에 OpenAI에서 지시 따르기 방법을 다룬 Diogo Almeida다. 목록은 회사가 $40M을 모았고, 사람과 대화하는 모델이 아니라 소프트웨어가 소비하는 기계 고유의 지능을 한다고 적는다. $40M은 그날 받아 온 공개 글에서 확인되지 않았고, 미확인으로 둔다. 프로젝트가 아닌 앞부분에서 복구할 호출 설정은 없다. 소셜 글의 문장은 확인된 사실로 취급하지 않는다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
-이 행은 통합이 아니라서 호출 세팅이 없다.
+이 행은 통합이 아니라서 호출 설정이 없다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 

@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/273-foreman.md) · [English](../../en/projects/273-foreman.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L273) `README.md:273` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: Developer tools and code review (개발 도구·코드 리뷰)
+- 절: 개발 도구·코드 리뷰
 - 주소: https://github.com/thruwire/foreman
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -11,6 +11,8 @@
 ## 목록이 말하는 일
 
 > - [Foreman](https://github.com/thruwire/foreman) - Software-factory loop: Codex implements; Jev independently judges completeness, tests, and whether a human is needed.
+
+소프트웨어 공장 루프. Codex가 구현하고, Jev가 따로 완성도, 테스트, 사람이 필요한지를 판단한다.
 
 ## 확인한 것
 
@@ -20,15 +22,15 @@
 
 ## Jev의 역할
 
-목록은 이렇게 적는다. Software-factory loop: Codex implements; Jev independently judges completeness, tests, and whether a human is needed. 이 절에 모인 행은 대개 diff, 로그, 커밋, 이미 뽑아 둔 문자열에 대한 판단이고, 파일시스템과 git 호출은 일반 코드가 가진다. 그것은 절의 모양이다. 이 행이 그렇게 생겼다는 확인은 아니다. 이 페이지는 그 코드를 따라가지 않았다.
+목록은 이렇게 적는다. 소프트웨어 공장 루프. Codex가 구현하고, Jev가 따로 완성도, 테스트, 사람이 필요한지를 판단한다. 이 절에 모인 행은 대개 diff, 로그, 커밋, 이미 뽑아 둔 문자열에 대한 판단이고, 파일시스템과 git 호출은 일반 코드가 가진다. 그것은 절의 모양이다. 이 행이 그렇게 생겼다는 확인은 아니다. 이 페이지는 그 코드를 따라가지 않았다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
 목록 문장과 읽은 앞부분에는 이 항목의 엔드포인트, 모델 id, 키 변수, 질문 스키마가 없다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 

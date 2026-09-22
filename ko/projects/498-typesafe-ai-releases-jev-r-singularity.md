@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/498-typesafe-ai-releases-jev-r-singularity.md) · [English](../../en/projects/498-typesafe-ai-releases-jev-r-singularity.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L498) `README.md:498` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: Discussions (토론·소셜)
+- 절: 토론·소셜
 - 주소: https://reddit.com/r/singularity/comments/1whop6b/typesafe_ai_releases_ai_model_called_jev_rather/
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -12,21 +12,23 @@
 
 > - [TypeSafe AI releases Jev (r/singularity)](https://reddit.com/r/singularity/comments/1whop6b/typesafe_ai_releases_ai_model_called_jev_rather/) - Reddit frames Jev as a low-hallucination, low-cost decision model for software rather than chat.
 
+Reddit은 Jev를, 채팅이 아니라 소프트웨어를 위한 환각이 낮고 싼 결정 모델로 그린다.
+
 ## 확인한 것
 
 - 2026-09-22 조회는 로그인 벽이었다. 글 본문을 읽지 못했다.
 
 ## Jev의 역할
 
-이 행은 Jev 통합이 아니다. Jev에 대한 페이지, 글, 목록, FAQ 답이다. 목록은 이렇게 적는다. Reddit frames Jev as a low-hallucination, low-cost decision model for software rather than chat. 프로젝트가 아닌 앞부분에서 복구할 호출 세팅은 없다. 소셜 글의 문장은 확인된 사실로 취급하지 않는다.
+이 행은 Jev 통합이 아니다. Jev에 대한 페이지, 글, 목록, FAQ 답이다. 목록은 이렇게 적는다. Reddit은 Jev를, 채팅이 아니라 소프트웨어를 위한 환각이 낮고 싼 결정 모델로 그린다. 프로젝트가 아닌 앞부분에서 복구할 호출 설정은 없다. 소셜 글의 문장은 확인된 사실로 취급하지 않는다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
-이 행은 통합이 아니라서 호출 세팅이 없다.
+이 행은 통합이 아니라서 호출 설정이 없다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 

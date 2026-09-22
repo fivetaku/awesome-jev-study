@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/246-jev-browser-vlad-terin.md) · [English](../../en/projects/246-jev-browser-vlad-terin.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L246) `README.md:246` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: Browser and computer-use agents (브라우저·컴퓨터 조작)
+- 절: 브라우저·컴퓨터 조작
 - 주소: https://github.com/vlad-terin/jev-browser
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -12,25 +12,27 @@
 
 > - [Jev Browser (Vlad Terin)](https://github.com/vlad-terin/jev-browser) - Agent skill + runtime: Codex plans, Jev selects elements, a runner acts and verifies each step.
 
+에이전트 스킬과 런타임. Codex가 계획하고, Jev가 요소를 고르고, 실행기가 행동하고 단계를 확인한다. 이 주소는 2026-09-22에 404였다.
+
 ## 확인한 것
 
 - 이 경로는 2026-09-22에 저장소로 열리지 않았다. 404다. 라이선스나 README를 말한 것이 아니다. Ying-Kai-Liao/jev-browser는 다른 항목이다.
 
 ## Jev의 역할
 
-목록이 맞다면 Jev의 자리는 브라우저나 컴퓨터 조작 루프 안의 결정이다. 목록은 이렇게 적는다. Agent skill + runtime: Codex plans, Jev selects elements, a runner acts and verifies each step. 페이지를 읽고 클릭을 실행하는 일은 일반 코드다. 이 페이지는 그 루프를 따라가지 않았고, 이 프로젝트가 픽셀을 본다고 말하지 않는다. 텍스트 상태이지 프레임이 아니라고 적은 것은 Doom 소개뿐이며, 그 문장을 다른 에이전트에 옮기지 않는다.
+목록이 맞다면 Jev의 자리는 브라우저나 컴퓨터 조작 루프 안의 결정이다. 목록은 이렇게 적는다. 에이전트 스킬과 런타임. Codex가 계획하고, Jev가 요소를 고르고, 실행기가 행동하고 단계를 확인한다. 이 주소는 2026-09-22에 404였다. 페이지를 읽고 클릭을 실행하는 일은 일반 코드다. 이 페이지는 그 루프를 따라가지 않았고, 이 프로젝트가 픽셀을 본다고 말하지 않는다. 텍스트 상태이지 프레임이 아니라고 적은 것은 Doom 소개뿐이며, 그 문장을 다른 에이전트에 옮기지 않는다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
-대상이 열리지 않았거나 본문이 없다. 세팅을 추정하지 않는다.
+대상이 열리지 않았거나 본문이 없다. 설정을 추정하지 않는다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 
-추론. LLM은 다음 행동을 문장으로 쓰고, 프로그램이 그 문장을 파싱한다. 런치 글의 벤더 보고 종단 범위는 Jev 70–500ms, 프론티어 3–329초다. 이 프로젝트의 측정이 아니다. 페이지를 기다리게 두는 루프에서는 그 차이가 설계를 가른다. 출력 토큰은 LLM 청구서에 남는다.
+추론. LLM은 다음 행동을 문장으로 쓰고, 프로그램이 그 문장을 파싱한다. 공개 글의 벤더가 보고한 응답까지 걸린 시간의 범위는 Jev 70–500ms, 앞선 모델 3–329초다. 이 프로젝트의 측정이 아니다. 페이지를 기다리게 두는 루프에서는 그 차이가 설계를 가른다. 출력 토큰은 LLM 청구서에 남는다.
 
 ## 스크립트로 같은 일을 했다면
 

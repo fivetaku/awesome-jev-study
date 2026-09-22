@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/295-jev-router-prismhq.md) · [English](../../en/projects/295-jev-router-prismhq.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L295) `README.md:295` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: Model routing (모델 라우팅)
+- 절: 모델 라우팅
 - 주소: https://github.com/prismhq/jev-router
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -11,6 +11,8 @@
 ## 목록이 말하는 일
 
 > - [jev-router (prismhq)](https://github.com/prismhq/jev-router) - Open-source LiteLLM-based router where a Jev decision picks which model serves each request.
+
+오픈소스 LiteLLM 기반 라우터. Jev 결정이 요청마다 어느 모델이 받을지 고른다.
 
 ## 확인한 것
 
@@ -20,15 +22,15 @@
 
 ## Jev의 역할
 
-Jev의 Choice가 다음 모델, 스킬, 경로를 고른다. 생성이 있다면 그 선택 다음에 일어난다. 목록은 이렇게 적는다. Open-source LiteLLM-based router where a Jev decision picks which model serves each request. 이 페이지는 라우팅 규칙을 소스에서 따라가지 않았다.
+Jev의 Choice가 다음 모델, 스킬, 경로를 고른다. 생성이 있다면 그 선택 다음에 일어난다. 목록은 이렇게 적는다. 오픈소스 LiteLLM 기반 라우터. Jev 결정이 요청마다 어느 모델이 받을지 고른다. 이 페이지는 라우팅 규칙을 소스에서 따라가지 않았다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
 목록 문장과 읽은 앞부분에는 이 항목의 엔드포인트, 모델 id, 키 변수, 질문 스키마가 없다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 

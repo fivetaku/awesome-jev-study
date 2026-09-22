@@ -3,7 +3,7 @@
 [한국어](../../ko/projects/469-jevlike.md) · [English](../../en/projects/469-jevlike.md)
 
 - 목록: [kraayenjon/awesome-jev](https://github.com/kraayenjon/awesome-jev/blob/22570dcd8662ae039860a1dfad7d7aec4aff8e15/README.md#L469) `README.md:469` @ `22570dcd` (CC0). fivetaku/awesome-jev 포크는 이 커밋으로 클론했다.
-- 절: Research and open models (연구·오픈 모델)
+- 절: 연구·오픈 모델
 - 주소: https://github.com/vinnylarouge/jevlike
 - 조회: 2026-09-22
 - 깊이: 목록 문장과 대상 앞부분. 소스 추적이 아니다. 런타임 테스트가 아니다.
@@ -12,6 +12,8 @@
 
 > - [jevlike](https://github.com/vinnylarouge/jevlike) - Train a small one-pass scorer mapping context + N text options to a probability per option. Doom / chess vision demos and a Wikispeedia example. Explicitly not a reproduction of TypeSafe's architecture or RLCD.
 
+문맥과 텍스트 선택지 N개를 선택지별 확률로 보내는 작은 한 패스 채점기를 학습한다. Doom·체스 비전 데모와 Wikispeedia 예. TypeSafe의 구조나 RLCD를 재현한 것이 아니라고 분명히 적는다.
+
 ## 확인한 것
 
 - 실행으로 확인, GitHub API 2026-09-22: `vinnylarouge/jevlike`, 스타 1209, SPDX MIT, push 2026-09-16, 아카이브 False, 언어 Python.
@@ -19,15 +21,15 @@
 
 ## Jev의 역할
 
-이 행은 주장 옆에 놓인 논문, 로컬 모델, 오픈 산출물이다. 목록은 이렇게 적는다. Train a small one-pass scorer mapping context + N text options to a probability per option. Doom / chess vision demos and a Wikispeedia example. Explicitly not a reproduction of TypeSafe's architecture or RLCD. Jev를 의존성으로 가정하지 않는다. 앞부분이 Jev의 이름을 말하는지까지 보았다. 소스는 따라가지 않았다.
+이 행은 주장 옆에 놓인 논문, 로컬 모델, 오픈 산출물이다. 목록은 이렇게 적는다. 문맥과 텍스트 선택지 N개를 선택지별 확률로 보내는 작은 한 패스 채점기를 학습한다. Doom·체스 비전 데모와 Wikispeedia 예. TypeSafe의 구조나 RLCD를 재현한 것이 아니라고 분명히 적는다. Jev를 의존성으로 가정하지 않는다. 앞부분이 Jev의 이름을 말하는지까지 보았다. 소스는 따라가지 않았다.
 
-## 세팅
+## 설정
 
-세팅으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
+설정으로 적는 것은 목록 문장과 2026-09-22에 읽은 앞부분뿐이다. 저장소 소스는 열지 않았다.
 
 목록 문장과 읽은 앞부분에는 이 항목의 엔드포인트, 모델 id, 키 변수, 질문 스키마가 없다.
 
-공식 호출의 모양은 이 프로젝트의 세팅이 아니다. 목록 퀵스타트(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 state에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
+공식 호출의 모양은 이 프로젝트의 설정이 아니다. 목록 시작 예제(README.md:102-159)는 `POST https://api.typesafe.ai/v1/systemone`, 환경변수 `TYPESAFE_API_KEY`, Python `typesafe-sdk`, JS `@typesafe-ai/sdk`, 한 `state`에 Choice·Noul·Score를 같이 넣는다. Vercel에서는 `experimental_evaluate`와 id `typesafe-ai/jev`. 그 예제는 실행하지 않았다.
 
 ## LLM으로 같은 일을 했다면
 
